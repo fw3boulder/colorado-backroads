@@ -156,6 +156,7 @@ a.card:hover { transform: translateY(-4px); box-shadow: 0 2px 4px rgba(0,0,0,.06
   .item::before { left: -30px; }
   .livemap { height: 380px; }
   .hero { min-height: 70vh; }
+  .wrap.herotext { padding-bottom: 52px; }
   .back { left: 16px; }
   .credits { columns: 1; }
   .tonight .photo img { min-height: 220px; }
