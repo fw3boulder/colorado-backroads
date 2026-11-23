@@ -1,4 +1,4 @@
-const C='roadbook-gunnison-fee29ae7f5',P='gunnison.html';
+const C='roadbook-gunnison-d8e7faf126',P='gunnison.html';
 self.addEventListener('install',e=>e.waitUntil(caches.open(C).then(c=>c.addAll([P,'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js','https://unpkg.com/leaflet@1.9.4/dist/leaflet.css'])).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x.startsWith('roadbook-gunnison-')&&x!==C)
  .map(x=>caches.delete(x)))).then(()=>self.clients.claim())));
