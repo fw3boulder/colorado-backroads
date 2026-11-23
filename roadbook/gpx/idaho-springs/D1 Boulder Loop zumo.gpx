@@ -360,340 +360,344 @@
       <name>Shaping point 88</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.741816" lon="-105.496178">
+    <rtept lat="39.741817" lon="-105.496176">
       <name>Keep right on I 70 Business</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.741947" lon="-105.495811">
+    <rtept lat="39.741948" lon="-105.495810">
       <name>At the roundabout, take the 2nd exit onto I 70 Business</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.744637" lon="-105.487436">
-      <name>Shaping point 91</name>
+    <rtept lat="39.742922" lon="-105.490950">
+      <name>Straight onto East Idaho Springs Road (CR 314)</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.744221" lon="-105.478239">
+    <rtept lat="39.742577" lon="-105.483336">
       <name>Shaping point 92</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.744963" lon="-105.468956">
+    <rtept lat="39.742521" lon="-105.475234">
       <name>Shaping point 93</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.746568" lon="-105.460744">
+    <rtept lat="39.744553" lon="-105.468364">
+      <name>Shaping point 94</name>
+      <extensions><trp:ShapingPoint/></extensions>
+    </rtept>
+    <rtept lat="39.746394" lon="-105.460796">
       <name>Left onto Central City Parkway</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.747853" lon="-105.469625">
-      <name>Shaping point 95</name>
-      <extensions><trp:ShapingPoint/></extensions>
-    </rtept>
-    <rtept lat="39.750545" lon="-105.466755">
+    <rtept lat="39.747823" lon="-105.469444">
       <name>Shaping point 96</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.752119" lon="-105.458255">
+    <rtept lat="39.750469" lon="-105.466851">
       <name>Shaping point 97</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.750998" lon="-105.449160">
+    <rtept lat="39.752108" lon="-105.458333">
       <name>Shaping point 98</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.756988" lon="-105.446978">
+    <rtept lat="39.750988" lon="-105.449190">
+      <name>Shaping point 99</name>
+      <extensions><trp:ShapingPoint/></extensions>
+    </rtept>
+    <rtept lat="39.756997" lon="-105.446986">
       <name>Keep left on Central City Parkway</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.759707" lon="-105.457028">
-      <name>Shaping point 100</name>
-      <extensions><trp:ShapingPoint/></extensions>
-    </rtept>
-    <rtept lat="39.764778" lon="-105.464860">
+    <rtept lat="39.759709" lon="-105.457042">
       <name>Shaping point 101</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.771361" lon="-105.471346">
+    <rtept lat="39.764780" lon="-105.464860">
       <name>Shaping point 102</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.778692" lon="-105.477471">
+    <rtept lat="39.771371" lon="-105.471351">
       <name>Shaping point 103</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.785095" lon="-105.484224">
+    <rtept lat="39.778693" lon="-105.477473">
       <name>Shaping point 104</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.785681" lon="-105.494993">
+    <rtept lat="39.785096" lon="-105.484225">
       <name>Shaping point 105</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.789425" lon="-105.504627">
+    <rtept lat="39.785688" lon="-105.495003">
       <name>Shaping point 106</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.790159" lon="-105.515776">
+    <rtept lat="39.789425" lon="-105.504629">
+      <name>Shaping point 107</name>
+      <extensions><trp:ShapingPoint/></extensions>
+    </rtept>
+    <rtept lat="39.790160" lon="-105.515777">
       <name>Keep right on Central City Parkway</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.794726" lon="-105.515567">
-      <name>Shaping point 108</name>
+    <rtept lat="39.794733" lon="-105.515578">
+      <name>Shaping point 109</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.799241" lon="-105.512518">
+    <rtept lat="39.799243" lon="-105.512517">
       <name>Slight left onto the unnamed primary link</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.800204" lon="-105.511313">
+    <rtept lat="39.800204" lon="-105.511311">
       <name>Right onto Gregory Street</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.800910" lon="-105.503056">
+    <rtept lat="39.800910" lon="-105.503054">
       <name>Keep right on Gregory Street</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.802490" lon="-105.493918">
+    <rtept lat="39.802492" lon="-105.493919">
       <name>Left onto CO 119</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.809031" lon="-105.497802">
-      <name>Shaping point 113</name>
-      <extensions><trp:ShapingPoint/></extensions>
-    </rtept>
-    <rtept lat="39.816250" lon="-105.500993">
+    <rtept lat="39.809032" lon="-105.497802">
       <name>Shaping point 114</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.819462" lon="-105.510465">
+    <rtept lat="39.816251" lon="-105.500995">
+      <name>Shaping point 115</name>
+      <extensions><trp:ShapingPoint/></extensions>
+    </rtept>
+    <rtept lat="39.819463" lon="-105.510464">
       <name>Keep right onto Hughesville Road (CR 5)</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.825561" lon="-105.505672">
+    <rtept lat="39.825562" lon="-105.505672">
       <name>Keep left on Hughesville Road (CR 5)</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.832397" lon="-105.502621">
-      <name>Shaping point 117</name>
+    <rtept lat="39.832390" lon="-105.502623">
+      <name>Shaping point 118</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.837159" lon="-105.496825">
+    <rtept lat="39.837159" lon="-105.496827">
       <name>Left onto Juniper Road</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.838457" lon="-105.503661">
+    <rtept lat="39.838457" lon="-105.503659">
       <name>Right onto CO 119</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.841460" lon="-105.493895">
-      <name>Shaping point 120</name>
-      <extensions><trp:ShapingPoint/></extensions>
-    </rtept>
-    <rtept lat="39.848108" lon="-105.487963">
+    <rtept lat="39.841461" lon="-105.493893">
       <name>Shaping point 121</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.852913" lon="-105.481111">
+    <rtept lat="39.848109" lon="-105.487961">
       <name>Shaping point 122</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.858119" lon="-105.475508">
+    <rtept lat="39.852914" lon="-105.481109">
       <name>Shaping point 123</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.861788" lon="-105.467556">
+    <rtept lat="39.858121" lon="-105.475507">
       <name>Shaping point 124</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.869668" lon="-105.465359">
+    <rtept lat="39.861789" lon="-105.467554">
       <name>Shaping point 125</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.876149" lon="-105.464139">
+    <rtept lat="39.869669" lon="-105.465359">
+      <name>Shaping point 126</name>
+      <extensions><trp:ShapingPoint/></extensions>
+    </rtept>
+    <rtept lat="39.876150" lon="-105.464138">
       <name>Right onto Gap Road (CR 2)</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.876893" lon="-105.463057">
+    <rtept lat="39.876892" lon="-105.463055">
       <name>Right onto Gap Road (CR 2)</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.875946" lon="-105.455555">
+    <rtept lat="39.875945" lon="-105.455554">
       <name>Slight right onto Gap Road (CR 2)</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.871108" lon="-105.446924">
-      <name>Shaping point 129</name>
-      <extensions><trp:ShapingPoint/></extensions>
-    </rtept>
-    <rtept lat="39.875332" lon="-105.439109">
+    <rtept lat="39.871108" lon="-105.446922">
       <name>Shaping point 130</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.871886" lon="-105.429660">
+    <rtept lat="39.875332" lon="-105.439107">
       <name>Shaping point 131</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.869416" lon="-105.419907">
+    <rtept lat="39.871885" lon="-105.429658">
       <name>Shaping point 132</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.868100" lon="-105.409916">
+    <rtept lat="39.869415" lon="-105.419905">
       <name>Shaping point 133</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.866682" lon="-105.401156">
+    <rtept lat="39.868099" lon="-105.409914">
       <name>Shaping point 134</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.872181" lon="-105.397651">
+    <rtept lat="39.866682" lon="-105.401154">
       <name>Shaping point 135</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.877485" lon="-105.389670">
+    <rtept lat="39.872182" lon="-105.397651">
       <name>Shaping point 136</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.877347" lon="-105.379844">
+    <rtept lat="39.877485" lon="-105.389667">
+      <name>Shaping point 137</name>
+      <extensions><trp:ShapingPoint/></extensions>
+    </rtept>
+    <rtept lat="39.877348" lon="-105.379843">
       <name>Keep left on Gap Road (CR 2)</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.880281" lon="-105.378242">
+    <rtept lat="39.880281" lon="-105.378239">
       <name>Right onto Gap Road (CR 2)</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.886427" lon="-105.381097">
-      <name>Shaping point 139</name>
-      <extensions><trp:ShapingPoint/></extensions>
-    </rtept>
-    <rtept lat="39.884102" lon="-105.371689">
+    <rtept lat="39.886429" lon="-105.381096">
       <name>Shaping point 140</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.883392" lon="-105.362971">
+    <rtept lat="39.884101" lon="-105.371687">
       <name>Shaping point 141</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.889532" lon="-105.356994">
+    <rtept lat="39.883393" lon="-105.362969">
       <name>Shaping point 142</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.895456" lon="-105.350283">
+    <rtept lat="39.889533" lon="-105.356992">
       <name>Shaping point 143</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.900206" lon="-105.342966">
+    <rtept lat="39.895457" lon="-105.350281">
+      <name>Shaping point 144</name>
+      <extensions><trp:ShapingPoint/></extensions>
+    </rtept>
+    <rtept lat="39.900206" lon="-105.342969">
       <name>Left onto CO 72</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.906100" lon="-105.346994">
+    <rtept lat="39.906101" lon="-105.346992">
       <name>Right onto Crescent Park Drive</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.910907" lon="-105.348310">
-      <name>Shaping point 146</name>
+    <rtept lat="39.910905" lon="-105.348311">
+      <name>Shaping point 147</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.913846" lon="-105.350851">
+    <rtept lat="39.913846" lon="-105.350849">
       <name>Right onto Gross Dam Road (CR 77S)</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.919979" lon="-105.348477">
-      <name>Shaping point 148</name>
+    <rtept lat="39.919990" lon="-105.348475">
+      <name>Shaping point 149</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.925277" lon="-105.346881">
+    <rtept lat="39.925287" lon="-105.346876">
       <name>Keep left on Gross Dam Road (CR 77S)</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.928020" lon="-105.343772">
-      <name>Shaping point 150</name>
+    <rtept lat="39.928030" lon="-105.343769">
+      <name>Shaping point 151</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.930190" lon="-105.340608">
+    <rtept lat="39.930192" lon="-105.340606">
       <name>Keep left on Gross Dam Road (CR 77S)</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.933398" lon="-105.342140">
-      <name>Shaping point 152</name>
-      <extensions><trp:ShapingPoint/></extensions>
-    </rtept>
-    <rtept lat="39.936695" lon="-105.346111">
+    <rtept lat="39.933400" lon="-105.342139">
       <name>Shaping point 153</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.939693" lon="-105.350385">
+    <rtept lat="39.936695" lon="-105.346113">
       <name>Shaping point 154</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.941017" lon="-105.345122">
+    <rtept lat="39.939694" lon="-105.350385">
       <name>Shaping point 155</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.943843" lon="-105.348936">
+    <rtept lat="39.941016" lon="-105.345124">
       <name>Shaping point 156</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.949360" lon="-105.353204">
+    <rtept lat="39.943841" lon="-105.348937">
       <name>Shaping point 157</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.956392" lon="-105.355428">
+    <rtept lat="39.949362" lon="-105.353203">
+      <name>Shaping point 158</name>
+      <extensions><trp:ShapingPoint/></extensions>
+    </rtept>
+    <rtept lat="39.956392" lon="-105.355426">
       <name>Right onto Flagstaff Road (CR 77)</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.958032" lon="-105.347550">
-      <name>Shaping point 159</name>
-      <extensions><trp:ShapingPoint/></extensions>
-    </rtept>
-    <rtept lat="39.954096" lon="-105.338796">
+    <rtept lat="39.958031" lon="-105.347549">
       <name>Shaping point 160</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.961152" lon="-105.338800">
+    <rtept lat="39.954094" lon="-105.338782">
       <name>Shaping point 161</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.968790" lon="-105.338838">
+    <rtept lat="39.961154" lon="-105.338801">
+      <name>Shaping point 162</name>
+      <extensions><trp:ShapingPoint/></extensions>
+    </rtept>
+    <rtept lat="39.968791" lon="-105.338840">
       <name>Keep right on Flagstaff Road (CR 77)</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.975686" lon="-105.335695">
-      <name>Shaping point 163</name>
-      <extensions><trp:ShapingPoint/></extensions>
-    </rtept>
-    <rtept lat="39.981021" lon="-105.328247">
+    <rtept lat="39.975687" lon="-105.335693">
       <name>Shaping point 164</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.985491" lon="-105.321504">
+    <rtept lat="39.981022" lon="-105.328245">
       <name>Shaping point 165</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.991763" lon="-105.316559">
+    <rtept lat="39.985491" lon="-105.321502">
       <name>Shaping point 166</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="39.995428" lon="-105.311218">
+    <rtept lat="39.991764" lon="-105.316557">
       <name>Shaping point 167</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="40.000148" lon="-105.302862">
+    <rtept lat="39.995429" lon="-105.311220">
       <name>Shaping point 168</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="40.000057" lon="-105.299853">
+    <rtept lat="40.000148" lon="-105.302860">
       <name>Shaping point 169</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="40.002468" lon="-105.295862">
+    <rtept lat="40.000056" lon="-105.299855">
       <name>Shaping point 170</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="40.006075" lon="-105.294819">
+    <rtept lat="40.002467" lon="-105.295864">
       <name>Shaping point 171</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
-    <rtept lat="40.000897" lon="-105.290482">
+    <rtept lat="40.006077" lon="-105.294819">
       <name>Shaping point 172</name>
+      <extensions><trp:ShapingPoint/></extensions>
+    </rtept>
+    <rtept lat="40.000904" lon="-105.290485">
+      <name>Shaping point 173</name>
       <extensions><trp:ShapingPoint/></extensions>
     </rtept>
     <rtept lat="40.000076" lon="-105.281954">
@@ -3206,180 +3210,166 @@
       <trkpt lat="39.741564" lon="-105.503021"></trkpt>
       <trkpt lat="39.741566" lon="-105.502793"></trkpt>
       <trkpt lat="39.741567" lon="-105.502659"></trkpt>
-      <trkpt lat="39.741571" lon="-105.502152"></trkpt>
+      <trkpt lat="39.741567" lon="-105.502659"></trkpt>
       <trkpt lat="39.741567" lon="-105.501580"></trkpt>
-      <trkpt lat="39.741559" lon="-105.500542"></trkpt>
       <trkpt lat="39.741557" lon="-105.500253"></trkpt>
-      <trkpt lat="39.741565" lon="-105.499994"></trkpt>
-      <trkpt lat="39.741567" lon="-105.499891"></trkpt>
       <trkpt lat="39.741570" lon="-105.499837"></trkpt>
-      <trkpt lat="39.741608" lon="-105.499475"></trkpt>
-      <trkpt lat="39.741613" lon="-105.499428"></trkpt>
-      <trkpt lat="39.741631" lon="-105.499241"></trkpt>
-      <trkpt lat="39.741642" lon="-105.499091"></trkpt>
       <trkpt lat="39.741656" lon="-105.498943"></trkpt>
-      <trkpt lat="39.741664" lon="-105.498871"></trkpt>
-      <trkpt lat="39.741697" lon="-105.498548"></trkpt>
       <trkpt lat="39.741734" lon="-105.498240"></trkpt>
-      <trkpt lat="39.741749" lon="-105.498109"></trkpt>
-      <trkpt lat="39.741764" lon="-105.497995"></trkpt>
-      <trkpt lat="39.741804" lon="-105.497699"></trkpt>
-      <trkpt lat="39.741847" lon="-105.497414"></trkpt>
-      <trkpt lat="39.741861" lon="-105.497324"></trkpt>
-      <trkpt lat="39.741884" lon="-105.497170"></trkpt>
-      <trkpt lat="39.741911" lon="-105.496985"></trkpt>
+      <trkpt lat="39.741907" lon="-105.497019"></trkpt>
       <trkpt lat="39.741941" lon="-105.496792"></trkpt>
       <trkpt lat="39.741945" lon="-105.496590"></trkpt>
-      <trkpt lat="39.741937" lon="-105.496504"></trkpt>
       <trkpt lat="39.741930" lon="-105.496440"></trkpt>
-      <trkpt lat="39.741922" lon="-105.496405"></trkpt>
-      <trkpt lat="39.741911" lon="-105.496358"></trkpt>
       <trkpt lat="39.741888" lon="-105.496273"></trkpt>
-      <trkpt lat="39.741848" lon="-105.496234"></trkpt>
       <trkpt lat="39.741828" lon="-105.496204"></trkpt>
-      <trkpt lat="39.741818" lon="-105.496182"></trkpt>
       <trkpt lat="39.741807" lon="-105.496147"></trkpt>
-      <trkpt lat="39.741803" lon="-105.496127"></trkpt>
       <trkpt lat="39.741800" lon="-105.496085"></trkpt>
       <trkpt lat="39.741803" lon="-105.496046"></trkpt>
-      <trkpt lat="39.741809" lon="-105.496017"></trkpt>
-      <trkpt lat="39.741819" lon="-105.495990"></trkpt>
       <trkpt lat="39.741836" lon="-105.495957"></trkpt>
-      <trkpt lat="39.741854" lon="-105.495933"></trkpt>
       <trkpt lat="39.741876" lon="-105.495912"></trkpt>
       <trkpt lat="39.741901" lon="-105.495896"></trkpt>
-      <trkpt lat="39.741991" lon="-105.495732"></trkpt>
-      <trkpt lat="39.742011" lon="-105.495690"></trkpt>
       <trkpt lat="39.742072" lon="-105.495588"></trkpt>
-      <trkpt lat="39.742158" lon="-105.495340"></trkpt>
-      <trkpt lat="39.742444" lon="-105.494524"></trkpt>
       <trkpt lat="39.742493" lon="-105.494380"></trkpt>
-      <trkpt lat="39.742518" lon="-105.494249"></trkpt>
       <trkpt lat="39.742537" lon="-105.494145"></trkpt>
       <trkpt lat="39.742544" lon="-105.494063"></trkpt>
       <trkpt lat="39.742545" lon="-105.493930"></trkpt>
       <trkpt lat="39.742526" lon="-105.493827"></trkpt>
       <trkpt lat="39.742407" lon="-105.493082"></trkpt>
       <trkpt lat="39.742400" lon="-105.492999"></trkpt>
-      <trkpt lat="39.742400" lon="-105.492889"></trkpt>
       <trkpt lat="39.742409" lon="-105.492772"></trkpt>
       <trkpt lat="39.742428" lon="-105.492651"></trkpt>
-      <trkpt lat="39.742452" lon="-105.492544"></trkpt>
       <trkpt lat="39.742489" lon="-105.492397"></trkpt>
-      <trkpt lat="39.742523" lon="-105.492315"></trkpt>
       <trkpt lat="39.742551" lon="-105.492248"></trkpt>
       <trkpt lat="39.742595" lon="-105.492169"></trkpt>
-      <trkpt lat="39.742730" lon="-105.491964"></trkpt>
       <trkpt lat="39.743023" lon="-105.491537"></trkpt>
       <trkpt lat="39.743114" lon="-105.491370"></trkpt>
-      <trkpt lat="39.743483" lon="-105.490727"></trkpt>
-      <trkpt lat="39.743609" lon="-105.490515"></trkpt>
-      <trkpt lat="39.743749" lon="-105.490272"></trkpt>
-      <trkpt lat="39.743937" lon="-105.489917"></trkpt>
-      <trkpt lat="39.744051" lon="-105.489690"></trkpt>
-      <trkpt lat="39.744165" lon="-105.489444"></trkpt>
-      <trkpt lat="39.744251" lon="-105.489242"></trkpt>
-      <trkpt lat="39.744331" lon="-105.489030"></trkpt>
-      <trkpt lat="39.744399" lon="-105.488827"></trkpt>
-      <trkpt lat="39.744455" lon="-105.488649"></trkpt>
-      <trkpt lat="39.744495" lon="-105.488491"></trkpt>
-      <trkpt lat="39.744534" lon="-105.488316"></trkpt>
-      <trkpt lat="39.744563" lon="-105.488144"></trkpt>
-      <trkpt lat="39.744592" lon="-105.487981"></trkpt>
-      <trkpt lat="39.744638" lon="-105.487615"></trkpt>
-      <trkpt lat="39.744637" lon="-105.487190"></trkpt>
-      <trkpt lat="39.744605" lon="-105.486819"></trkpt>
-      <trkpt lat="39.744582" lon="-105.486643"></trkpt>
-      <trkpt lat="39.744521" lon="-105.486293"></trkpt>
-      <trkpt lat="39.744469" lon="-105.486073"></trkpt>
-      <trkpt lat="39.744324" lon="-105.485529"></trkpt>
-      <trkpt lat="39.744114" lon="-105.484778"></trkpt>
-      <trkpt lat="39.744091" lon="-105.484685"></trkpt>
-      <trkpt lat="39.744033" lon="-105.484453"></trkpt>
-      <trkpt lat="39.743931" lon="-105.484055"></trkpt>
-      <trkpt lat="39.743855" lon="-105.483719"></trkpt>
-      <trkpt lat="39.743793" lon="-105.483376"></trkpt>
-      <trkpt lat="39.743752" lon="-105.483046"></trkpt>
-      <trkpt lat="39.743727" lon="-105.482730"></trkpt>
-      <trkpt lat="39.743714" lon="-105.482424"></trkpt>
-      <trkpt lat="39.743714" lon="-105.482172"></trkpt>
-      <trkpt lat="39.743727" lon="-105.481914"></trkpt>
-      <trkpt lat="39.743749" lon="-105.481657"></trkpt>
-      <trkpt lat="39.743807" lon="-105.481163"></trkpt>
-      <trkpt lat="39.743949" lon="-105.480153"></trkpt>
-      <trkpt lat="39.744145" lon="-105.478752"></trkpt>
-      <trkpt lat="39.744545" lon="-105.476087"></trkpt>
-      <trkpt lat="39.744912" lon="-105.473589"></trkpt>
-      <trkpt lat="39.745017" lon="-105.472880"></trkpt>
-      <trkpt lat="39.745095" lon="-105.472354"></trkpt>
-      <trkpt lat="39.745122" lon="-105.472164"></trkpt>
-      <trkpt lat="39.745149" lon="-105.471961"></trkpt>
-      <trkpt lat="39.745174" lon="-105.471753"></trkpt>
-      <trkpt lat="39.745192" lon="-105.471581"></trkpt>
-      <trkpt lat="39.745207" lon="-105.471414"></trkpt>
-      <trkpt lat="39.745219" lon="-105.471241"></trkpt>
-      <trkpt lat="39.745227" lon="-105.471039"></trkpt>
-      <trkpt lat="39.745230" lon="-105.470919"></trkpt>
-      <trkpt lat="39.745227" lon="-105.470740"></trkpt>
-      <trkpt lat="39.745219" lon="-105.470598"></trkpt>
-      <trkpt lat="39.745206" lon="-105.470429"></trkpt>
-      <trkpt lat="39.745188" lon="-105.470258"></trkpt>
-      <trkpt lat="39.745171" lon="-105.470137"></trkpt>
-      <trkpt lat="39.745143" lon="-105.469959"></trkpt>
-      <trkpt lat="39.744994" lon="-105.469145"></trkpt>
-      <trkpt lat="39.744967" lon="-105.468983"></trkpt>
-      <trkpt lat="39.744952" lon="-105.468861"></trkpt>
-      <trkpt lat="39.744933" lon="-105.468657"></trkpt>
-      <trkpt lat="39.744926" lon="-105.468484"></trkpt>
-      <trkpt lat="39.744929" lon="-105.468290"></trkpt>
-      <trkpt lat="39.744942" lon="-105.468107"></trkpt>
-      <trkpt lat="39.744964" lon="-105.467933"></trkpt>
-      <trkpt lat="39.744996" lon="-105.467744"></trkpt>
-      <trkpt lat="39.745041" lon="-105.467568"></trkpt>
-      <trkpt lat="39.745101" lon="-105.467383"></trkpt>
-      <trkpt lat="39.745180" lon="-105.467187"></trkpt>
-      <trkpt lat="39.745266" lon="-105.466999"></trkpt>
-      <trkpt lat="39.745350" lon="-105.466841"></trkpt>
-      <trkpt lat="39.745422" lon="-105.466714"></trkpt>
-      <trkpt lat="39.745489" lon="-105.466621"></trkpt>
-      <trkpt lat="39.745559" lon="-105.466527"></trkpt>
-      <trkpt lat="39.745669" lon="-105.466397"></trkpt>
-      <trkpt lat="39.745945" lon="-105.466019"></trkpt>
-      <trkpt lat="39.746105" lon="-105.465776"></trkpt>
-      <trkpt lat="39.746211" lon="-105.465578"></trkpt>
-      <trkpt lat="39.746306" lon="-105.465398"></trkpt>
-      <trkpt lat="39.746393" lon="-105.465223"></trkpt>
-      <trkpt lat="39.746444" lon="-105.465093"></trkpt>
-      <trkpt lat="39.746501" lon="-105.464920"></trkpt>
-      <trkpt lat="39.746572" lon="-105.464658"></trkpt>
-      <trkpt lat="39.746592" lon="-105.464565"></trkpt>
-      <trkpt lat="39.746592" lon="-105.464358"></trkpt>
-      <trkpt lat="39.746609" lon="-105.464103"></trkpt>
-      <trkpt lat="39.746611" lon="-105.463929"></trkpt>
-      <trkpt lat="39.746609" lon="-105.463793"></trkpt>
-      <trkpt lat="39.746601" lon="-105.463666"></trkpt>
-      <trkpt lat="39.746581" lon="-105.463453"></trkpt>
-      <trkpt lat="39.746465" lon="-105.462750"></trkpt>
+      <trkpt lat="39.742828" lon="-105.491091"></trkpt>
+      <trkpt lat="39.743311" lon="-105.490374"></trkpt>
+      <trkpt lat="39.743834" lon="-105.489607"></trkpt>
+      <trkpt lat="39.743886" lon="-105.489507"></trkpt>
+      <trkpt lat="39.744026" lon="-105.489188"></trkpt>
+      <trkpt lat="39.744096" lon="-105.488974"></trkpt>
+      <trkpt lat="39.744150" lon="-105.488752"></trkpt>
+      <trkpt lat="39.744196" lon="-105.488471"></trkpt>
+      <trkpt lat="39.744250" lon="-105.487979"></trkpt>
+      <trkpt lat="39.744310" lon="-105.487150"></trkpt>
+      <trkpt lat="39.744318" lon="-105.486888"></trkpt>
+      <trkpt lat="39.744317" lon="-105.486658"></trkpt>
+      <trkpt lat="39.744310" lon="-105.486528"></trkpt>
+      <trkpt lat="39.744275" lon="-105.486340"></trkpt>
+      <trkpt lat="39.744219" lon="-105.486187"></trkpt>
+      <trkpt lat="39.744170" lon="-105.486082"></trkpt>
+      <trkpt lat="39.744110" lon="-105.486012"></trkpt>
+      <trkpt lat="39.743560" lon="-105.485529"></trkpt>
+      <trkpt lat="39.743470" lon="-105.485433"></trkpt>
+      <trkpt lat="39.743263" lon="-105.485144"></trkpt>
+      <trkpt lat="39.743137" lon="-105.484916"></trkpt>
+      <trkpt lat="39.742984" lon="-105.484541"></trkpt>
+      <trkpt lat="39.742714" lon="-105.483792"></trkpt>
+      <trkpt lat="39.742619" lon="-105.483497"></trkpt>
+      <trkpt lat="39.742529" lon="-105.483151"></trkpt>
+      <trkpt lat="39.742471" lon="-105.482832"></trkpt>
+      <trkpt lat="39.742436" lon="-105.482532"></trkpt>
+      <trkpt lat="39.742403" lon="-105.482041"></trkpt>
+      <trkpt lat="39.742403" lon="-105.481853"></trkpt>
+      <trkpt lat="39.742416" lon="-105.481537"></trkpt>
+      <trkpt lat="39.742432" lon="-105.481373"></trkpt>
+      <trkpt lat="39.742463" lon="-105.481174"></trkpt>
+      <trkpt lat="39.742519" lon="-105.480915"></trkpt>
+      <trkpt lat="39.742560" lon="-105.480764"></trkpt>
+      <trkpt lat="39.742667" lon="-105.480429"></trkpt>
+      <trkpt lat="39.742858" lon="-105.479894"></trkpt>
+      <trkpt lat="39.742964" lon="-105.479498"></trkpt>
+      <trkpt lat="39.743010" lon="-105.479257"></trkpt>
+      <trkpt lat="39.743174" lon="-105.478559"></trkpt>
+      <trkpt lat="39.743420" lon="-105.477961"></trkpt>
+      <trkpt lat="39.743498" lon="-105.477747"></trkpt>
+      <trkpt lat="39.743536" lon="-105.477592"></trkpt>
+      <trkpt lat="39.743582" lon="-105.477010"></trkpt>
+      <trkpt lat="39.743587" lon="-105.476840"></trkpt>
+      <trkpt lat="39.743588" lon="-105.476803"></trkpt>
+      <trkpt lat="39.743559" lon="-105.476562"></trkpt>
+      <trkpt lat="39.743533" lon="-105.476470"></trkpt>
+      <trkpt lat="39.743500" lon="-105.476407"></trkpt>
+      <trkpt lat="39.743360" lon="-105.476202"></trkpt>
+      <trkpt lat="39.743053" lon="-105.475863"></trkpt>
+      <trkpt lat="39.742679" lon="-105.475445"></trkpt>
+      <trkpt lat="39.742587" lon="-105.475334"></trkpt>
+      <trkpt lat="39.742427" lon="-105.475092"></trkpt>
+      <trkpt lat="39.742383" lon="-105.474994"></trkpt>
+      <trkpt lat="39.742325" lon="-105.474833"></trkpt>
+      <trkpt lat="39.742291" lon="-105.474711"></trkpt>
+      <trkpt lat="39.742256" lon="-105.474535"></trkpt>
+      <trkpt lat="39.742241" lon="-105.474417"></trkpt>
+      <trkpt lat="39.742249" lon="-105.474207"></trkpt>
+      <trkpt lat="39.742265" lon="-105.474090"></trkpt>
+      <trkpt lat="39.742307" lon="-105.473899"></trkpt>
+      <trkpt lat="39.742403" lon="-105.473634"></trkpt>
+      <trkpt lat="39.742438" lon="-105.473567"></trkpt>
+      <trkpt lat="39.742501" lon="-105.473473"></trkpt>
+      <trkpt lat="39.742596" lon="-105.473385"></trkpt>
+      <trkpt lat="39.742766" lon="-105.473289"></trkpt>
+      <trkpt lat="39.742865" lon="-105.473244"></trkpt>
+      <trkpt lat="39.743205" lon="-105.473119"></trkpt>
+      <trkpt lat="39.743573" lon="-105.472938"></trkpt>
+      <trkpt lat="39.743964" lon="-105.472788"></trkpt>
+      <trkpt lat="39.744043" lon="-105.472745"></trkpt>
+      <trkpt lat="39.744188" lon="-105.472635"></trkpt>
+      <trkpt lat="39.744453" lon="-105.472404"></trkpt>
+      <trkpt lat="39.744513" lon="-105.472329"></trkpt>
+      <trkpt lat="39.744680" lon="-105.472087"></trkpt>
+      <trkpt lat="39.744725" lon="-105.472007"></trkpt>
+      <trkpt lat="39.744791" lon="-105.471838"></trkpt>
+      <trkpt lat="39.744830" lon="-105.471706"></trkpt>
+      <trkpt lat="39.744882" lon="-105.471457"></trkpt>
+      <trkpt lat="39.744909" lon="-105.471215"></trkpt>
+      <trkpt lat="39.744917" lon="-105.471063"></trkpt>
+      <trkpt lat="39.744900" lon="-105.470773"></trkpt>
+      <trkpt lat="39.744859" lon="-105.470502"></trkpt>
+      <trkpt lat="39.744786" lon="-105.470168"></trkpt>
+      <trkpt lat="39.744683" lon="-105.469754"></trkpt>
+      <trkpt lat="39.744630" lon="-105.469531"></trkpt>
+      <trkpt lat="39.744560" lon="-105.469172"></trkpt>
+      <trkpt lat="39.744533" lon="-105.468895"></trkpt>
+      <trkpt lat="39.744531" lon="-105.468745"></trkpt>
+      <trkpt lat="39.744539" lon="-105.468552"></trkpt>
+      <trkpt lat="39.744572" lon="-105.468120"></trkpt>
+      <trkpt lat="39.744608" lon="-105.467793"></trkpt>
+      <trkpt lat="39.744657" lon="-105.467544"></trkpt>
+      <trkpt lat="39.744742" lon="-105.467251"></trkpt>
+      <trkpt lat="39.744857" lon="-105.466929"></trkpt>
+      <trkpt lat="39.744913" lon="-105.466792"></trkpt>
+      <trkpt lat="39.744975" lon="-105.466650"></trkpt>
+      <trkpt lat="39.745059" lon="-105.466484"></trkpt>
+      <trkpt lat="39.745210" lon="-105.466245"></trkpt>
+      <trkpt lat="39.745410" lon="-105.465988"></trkpt>
+      <trkpt lat="39.745519" lon="-105.465862"></trkpt>
+      <trkpt lat="39.745753" lon="-105.465637"></trkpt>
+      <trkpt lat="39.745940" lon="-105.465482"></trkpt>
+      <trkpt lat="39.746106" lon="-105.465303"></trkpt>
+      <trkpt lat="39.746269" lon="-105.465040"></trkpt>
+      <trkpt lat="39.746339" lon="-105.464860"></trkpt>
+      <trkpt lat="39.746366" lon="-105.464770"></trkpt>
+      <trkpt lat="39.746426" lon="-105.464510"></trkpt>
+      <trkpt lat="39.746460" lon="-105.464203"></trkpt>
+      <trkpt lat="39.746464" lon="-105.464010"></trkpt>
+      <trkpt lat="39.746455" lon="-105.463708"></trkpt>
+      <trkpt lat="39.746329" lon="-105.462890"></trkpt>
+      <trkpt lat="39.746238" lon="-105.462337"></trkpt>
+      <trkpt lat="39.746141" lon="-105.461820"></trkpt>
+      <trkpt lat="39.745942" lon="-105.460929"></trkpt>
       <trkpt lat="39.746119" lon="-105.460879"></trkpt>
-      <trkpt lat="39.746239" lon="-105.460843"></trkpt>
       <trkpt lat="39.746520" lon="-105.460759"></trkpt>
-      <trkpt lat="39.746564" lon="-105.460746"></trkpt>
       <trkpt lat="39.746675" lon="-105.460716"></trkpt>
       <trkpt lat="39.746734" lon="-105.460713"></trkpt>
-      <trkpt lat="39.746794" lon="-105.460720"></trkpt>
       <trkpt lat="39.746833" lon="-105.460731"></trkpt>
-      <trkpt lat="39.746866" lon="-105.460747"></trkpt>
-      <trkpt lat="39.746929" lon="-105.460786"></trkpt>
       <trkpt lat="39.746960" lon="-105.460810"></trkpt>
-      <trkpt lat="39.746983" lon="-105.460838"></trkpt>
       <trkpt lat="39.747021" lon="-105.460897"></trkpt>
       <trkpt lat="39.747042" lon="-105.460935"></trkpt>
-      <trkpt lat="39.747057" lon="-105.460974"></trkpt>
       <trkpt lat="39.747072" lon="-105.461021"></trkpt>
-      <trkpt lat="39.747081" lon="-105.461084"></trkpt>
-      <trkpt lat="39.747085" lon="-105.461134"></trkpt>
+      <trkpt lat="39.747083" lon="-105.461114"></trkpt>
       <trkpt lat="39.747086" lon="-105.461309"></trkpt>
-      <trkpt lat="39.747089" lon="-105.461679"></trkpt>
+      <trkpt lat="39.747094" lon="-105.461949"></trkpt>
       <trkpt lat="39.747094" lon="-105.461949"></trkpt>
       <trkpt lat="39.747109" lon="-105.462279"></trkpt>
       <trkpt lat="39.747116" lon="-105.462383"></trkpt>

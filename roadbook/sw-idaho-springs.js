@@ -1,4 +1,4 @@
-const C='roadbook-idaho-springs-a9a19fee9f',P='idaho-springs.html';
+const C='roadbook-idaho-springs-d920e020f5',P='idaho-springs.html';
 self.addEventListener('install',e=>e.waitUntil(caches.open(C).then(c=>c.addAll([P,'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js','https://unpkg.com/leaflet@1.9.4/dist/leaflet.css'])).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x.startsWith('roadbook-idaho-springs-')&&x!==C)
  .map(x=>caches.delete(x)))).then(()=>self.clients.claim())));
