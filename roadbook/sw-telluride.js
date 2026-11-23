@@ -1,4 +1,4 @@
-const C='roadbook-telluride-05fd5beb00',P='telluride.html';
+const C='roadbook-telluride-12648dc14c',P='telluride.html';
 self.addEventListener('install',e=>e.waitUntil(caches.open(C).then(c=>c.addAll([P,'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js','https://unpkg.com/leaflet@1.9.4/dist/leaflet.css'])).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x.startsWith('roadbook-telluride-')&&x!==C)
  .map(x=>caches.delete(x)))).then(()=>self.clients.claim())));
