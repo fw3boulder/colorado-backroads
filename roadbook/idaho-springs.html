@@ -79,8 +79,11 @@ function offline() {
   const w = store.get('wx');
   off.textContent = pageSaved ? '✔ saved for offline' + (w ? ', weather from ' + w.got : ', no weather yet') : 'not saved yet';
 }
-if ('serviceWorker' in navigator && location.protocol !== 'file:') navigator.serviceWorker.register('sw-' + RB.slug + '.js')
-  .then(() => navigator.serviceWorker.ready).then(() => caches.match(RB.slug + '.html')).then(r => { if (!r) return; pageSaved = true; offline(); }).catch(() => { });
+// each trip's worker has its own scope (the page itself): one for the whole folder would push out the other trips' copies
+if ('serviceWorker' in navigator && location.protocol !== 'file:') navigator.serviceWorker.register('sw-' + RB.slug + '.js', { scope: RB.slug + '.html' })
+  .then(reg => new Promise(ok => { const w = reg.active || reg.waiting || reg.installing;
+    if (!w || w.state === 'activated') return ok(); w.addEventListener('statechange', () => { if (w.state === 'activated') ok(); }); }))
+  .then(() => caches.match(RB.slug + '.html')).then(r => { if (!r) return; pageSaved = true; offline(); }).catch(() => { });
 $('#print').addEventListener('click', () => window.print());
 
 // ---- check-off list: open items on top, done ones green at the bottom (kept on this device) ----
