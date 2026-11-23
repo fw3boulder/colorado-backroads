@@ -29,6 +29,11 @@ border:2px solid #17362b;align-items:center;justify-content:center;font-size:14p
 .pin b{left:30px;top:3px;font-size:13px;background:#fffd;padding:0 4px;border-radius:3px}.rname span{font:600 12px system-ui;color:#333;transform:translate(-50%,-50%)}
 .wxbox{border:2px solid #2b6cb0;padding:8px 12px;margin:10px 0;background:#f4f8fd}.wxbox p{margin:3px 0}.wxt td{padding:4px;font-size:15px}
 .wxform{display:flex;gap:10px;flex-wrap:wrap;align-items:end}.wxform label{font-size:14px}.wxform input{display:block;font:inherit;padding:8px}
+button{cursor:pointer;touch-action:manipulation}button:hover{filter:brightness(1.25)}button:active,summary:active{transform:scale(.96);filter:brightness(.8)}
+button:disabled{opacity:.75;cursor:wait}.busy::before{content:"";display:inline-block;width:14px;height:14px;margin-right:8px;vertical-align:-2px;border:3px solid #fff;
+border-right-color:transparent;border-radius:50%;animation:spin .8s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}
+.wxbox summary{display:inline-block;cursor:pointer;list-style:none;border:2px solid #2b6cb0;border-radius:8px;padding:9px 14px;margin:6px 0;background:#fff;color:#1d4f86;font-weight:600}
+.wxbox summary::-webkit-details-marker{display:none}.wxbox summary::before{content:"▶";margin-right:9px}.wxbox [open] summary::before{content:"▼"}.wxbox summary:hover{background:#e3eefb}
 .top{position:fixed;right:14px;bottom:14px;z-index:5;background:#17362b;color:#fff;border-radius:24px;padding:10px 14px;text-decoration:none;font-weight:700}
 @media print{.mapbox,.top,.tick{display:none!important}.wxbox{border-width:1px;padding:2px 6px;margin:3px 0}.eta{font-size:7pt;display:inline;margin-left:4px}.mi{white-space:nowrap;width:auto!important}}
 @media print{@page{margin:9mm}body{font-size:9pt;line-height:1.18}header,nav,.noprint,#before,#help{display:none}
@@ -37,8 +42,11 @@ td{padding:2px 5px}.mi{font-size:11pt}.ic span{font-size:10pt;display:inline}.ic
 .wx{border-width:1px;padding:3px 6px;margin:4px 0}.day p,.day ul{margin:3px 0}.small{font-size:7.5pt}tr{break-inside:avoid}
 td{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
 </style></head><body id="top">
-<header><div class="w"><h1>Telluride by Trailer</h1><p>Road Book · checked Nov 23, 2026 · <span id="off">open once with a signal to save it</span></p></div></header>
-<nav><div class="w"><a href="../telluride.html">⌂ Catalog</a><a href="#before">Before</a><a href="#d1">D1</a><a href="#d2">D2</a><a href="#d3">D3</a><a href="#help">Help</a></div></nav><main class="w"><section id="before"><p>Three riding days from Lake City. Best in late September. The calls to make are at the top; the day strips work without a signal.</p><h2>Weather and what to wear</h2>
+<header><div class="w"><h1>Telluride by Trailer</h1><p>Road Book · checked Nov 23, 2026 · <span id="off">not saved yet</span></p></div></header>
+<nav><div class="w"><a href="../telluride.html">⌂ Catalog</a><a href="#before">Before</a><a href="#d1">D1</a><a href="#d2">D2</a><a href="#d3">D3</a><a href="#help">Help</a></div></nav><main class="w"><section id="before"><p>Three riding days from Lake City. Best in late September. The calls to make are at the top; the day strips work without a signal.</p><h2>Using it offline</h2><ul><li>Nothing to download: opening this page with a signal saves it. When the top says
+<b>✔ saved for offline</b>, it's on this phone: page, maps, strips and GPX files.</li><li>Then open the same address without a signal. Easiest: in Chrome, ⋮ then <b>Add to
+Home screen</b> (iPhone: Share, then Add to Home Screen).</li><li>The night before, open it with a signal and tap Get the weather: that gets the latest version and keeps the forecast.</li>
+<li>It stays until you clear the browser's data. Try it once in airplane mode before you leave.</li></ul><h2>Weather and what to wear</h2>
 <div class="wxform noprint"><label>Day 1<input type="date" id="wxdate"></label><label>Start each day<input type="time" id="wxtime"></label>
 <button type="button" id="wxgo">Get the weather</button></div><p class="small" id="wxmsg" aria-live="polite">At the hour you'd be at each place. Within 16 days: a forecast. Further out: the last five years.</p>
 <div id="wxtrip" class="wxsum"></div><h2>Go or no-go</h2>
@@ -75,7 +83,7 @@ const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;',
 // ---- offline copy ----
 const off = $('#off');
 if ('serviceWorker' in navigator && location.protocol !== 'file:') navigator.serviceWorker.register('sw-' + RB.slug + '.js')
-  .then(() => navigator.serviceWorker.ready).then(() => { off.textContent = '✔ saved on this device for offline'; }).catch(() => { });
+  .then(() => navigator.serviceWorker.ready).then(() => caches.match(RB.slug + '.html')).then(r => { if (!r) return; off.textContent = '✔ saved for offline'; }).catch(() => { });
 $('#print').addEventListener('click', () => window.print());
 
 // ---- check-off list: open items on top, done ones green at the bottom (kept on this device) ----
@@ -265,7 +273,7 @@ function show(W) {
     box.hidden = false;
     box.innerHTML = `<p><b>${esc(W.label)}, ${new Date(addDays(W.date, i) + 'T12:00').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })}</b>: ${Math.round(w.lo)}° to ${Math.round(w.hi)}°, ${wet}, gusts to ${Math.round(w.gust)} mph${w.storm ? ', <b>⚠ thunderstorms</b>' : ''}. Coldest: ${esc(w.coldest.name)}, ${clock(w.coldest.min)}.</p>
 <p><b>Start in:</b> ${w.startText}. <b>Have handy:</b> ${[w.layer !== 'no extra layer' ? w.layer : '', w.gloves === 'heavy gloves' ? 'heavy gloves' : '', w.light ? 'light gloves' : ''].filter(x => x && !w.startText.includes(x)).join(', ') || 'nothing more'}${w.meshLater ? `; mesh weather from about ${clock(w.meshLater.min)}` : ''}.</p>
-<details class="noprint"><summary>Along the way</summary><table class="wxt">${pts.map(p => `<tr><td>${clock(p.min)}</td><td>mile ${Math.round(p.mile)}<br>${esc(p.name)}</td><td>${Math.round(p.t)}°${p.lo != null ? `<br><small>${Math.round(p.lo)}-${Math.round(p.hi)}°</small>` : ''}</td><td>${p.rain >= G.rain ? '☂ ' : ''}${Math.round(p.rain)}%</td><td>${Math.round(p.gust)} mph</td></tr>`).join('')}</table></details>`;
+<details class="noprint"><summary>Weather Along Route</summary><table class="wxt">${pts.map(p => `<tr><td>${clock(p.min)}</td><td>mile ${Math.round(p.mile)}<br>${esc(p.name)}</td><td>${Math.round(p.t)}°${p.lo != null ? `<br><small>${Math.round(p.lo)}-${Math.round(p.hi)}°</small>` : ''}</td><td>${p.rain >= G.rain ? '☂ ' : ''}${Math.round(p.rain)}%</td><td>${Math.round(p.gust)} mph</td></tr>`).join('')}</table></details>`;
     $$('#d' + d.n + ' .eta').forEach((s, k) => { s.textContent = clock(START(W.start) + d.rows[k].min); });
   });
   if (!all.length) return;
@@ -285,15 +293,16 @@ go.addEventListener('click', async () => {
   if (!when.value || Number.isNaN(days) || days < 0) { msg.textContent = 'Pick a day 1 from today on.'; return; }
   if (!at0.value) at0.value = '08:30';
   const mode = last <= 15 ? 'forecast' : 'usual';
-  msg.textContent = mode === 'forecast' ? 'Getting the forecast…' : 'Too far out for a forecast: looking at the last five years on these dates…'; go.disabled = true;
+  msg.textContent = mode === 'forecast' ? 'Getting the forecast…' : 'Too far out for a forecast: looking at the last five years on these dates…'; go.disabled = true; go.classList.add('busy'); go.textContent = 'Getting the weather…';
   try {
     const out = [];
     for (let i = 0; i < RB.days.length; i++) out.push(await dayWeather(RB.days[i], addDays(when.value, i), START(at0.value), mode));
     const w = { date: when.value, start: at0.value, days: out, got: new Date().toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }),
       label: mode === 'forecast' ? 'Forecast' : 'Usual weather', note: mode === 'forecast' ? (last > 7 ? 'More than a week out: treat it as a hint.' : 'Check again the night before.') : 'Not a forecast: the same dates in the last five years. Rain % = how many of those years were wet at that hour.' };
-    show(w); store.set('wx', w); msg.textContent = '✔ Saved on this device.';
-  } catch (e) { msg.textContent = 'No weather right now (' + e.message + '). The last one you got is kept.'; }
-  go.disabled = false;
+    show(w); store.set('wx', w); go.textContent = '✔ Updated'; msg.textContent = '✔ Weather updated ' + w.got + '.';
+  } catch (e) { go.textContent = '⚠ No weather'; msg.textContent = 'No weather right now (' + e.message + '). The last one you got is kept.'; }
+  go.disabled = false; go.classList.remove('busy');
+  clearTimeout(go.t); go.t = setTimeout(() => { go.textContent = 'Get the weather'; }, 2500);
 });
 })();
 </script></body></html>
